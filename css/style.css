@@ -1,0 +1,146 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Stylying the container*/
+.container
+{
+    width:100%;
+    height:100vh;
+    background-image:url(../images/backendimg11.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container header
+{
+    width:100%;
+    height:15%;
+    border-bottom: 1px solid #ccc;
+}
+.container header .section-one
+{
+    width:100%;
+    height:40%;
+   
+    background-color: #04080F;
+    display: flex;
+}
+.container header .section-one .contact
+{
+    width:80%;
+    height:100%;
+ 
+    display: flex;
+    color:#ccc;
+    padding-top: 7px;
+}
+.container header .section-one .contact .telephone{
+    display: flex;
+    }
+    
+    .container header .section-one .contact .telephone span{
+       margin-left: 0px;
+        margin-right: 20px;
+        padding-top: 0px;
+    }
+    
+    .container header.section-one .contact .email span{
+        margin-left: 5px;
+        padding-top: 0px;
+        
+    }
+    
+    
+    .container header .section-one .contact .email{
+    display: flex;
+    margin-right: 10px;
+    }
+    
+    .container header .section-one .contact img{
+    width: 20px;
+    height: 20px;
+    }
+
+ .container header .section-one .contact .localisation
+ {
+    margin-top: -4px;
+ }
+ .container header .followus
+{
+    width:20%;
+    height:100%;
+    display: flex;
+
+    padding: 7px;
+    margin-left: 50px;
+}
+.container header .followus img
+{
+    width:20px;
+    height:20px;
+    margin-right: 7px;
+}
+.container header .followus h6
+{
+    color:#ccc;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    margin-left: 80px;
+}
+.container header .section-two
+{
+    width:100%;
+    height:60%;
+    backdrop-filter: blur(7px);
+    background-color: transparent;
+    display: flex;
+}
+.container header .section-two .logo
+{
+    width:30%;
+    height:100%;
+    padding: 7px;
+  
+}
+.container header .section-two .logo h2
+{
+    color:#04080F;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+.container header .section-two .logo h2 span
+{
+    color: #bf0603;
+}
+.container header .section-two nav
+{
+    width:70%;
+    height:100%;
+    
+}
+.container header .section-two nav ul
+{
+    width:60%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 14px;
+}
+.container header .section-two nav ul a
+{
+    color: #ccc;
+    font-size: 0.9rem;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+}
+.container header .section-two nav ul a:hover 
+{
+    color:#bf0603;
+    text-decoration: underline;
+    transition: all .2s ease;
+}
