@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
+  <!--The start of the container-->
     <div class="container">
         <header>
+          <!--The header is the first section in our container, which contain two sections
+          one for the contact information, and the second a nav bar-->
+
             <div class="section-one">
+
                  <div class="contact">
                     <div class="telephone">
                         <img src="../images/icons8-telephone-50.png" alt="">
@@ -34,6 +40,7 @@
 
                  </div>
             </div>
+            <!--The end of the first section of the header part -->
             <div class="section-two">
                 <div class="logo">
                   <h2>POWER<span>FITNNESS</span></h2>
@@ -51,6 +58,53 @@
             </div>
         </header>
 
+        <!--The main section-->
+        <main>
+          <span style="border-bottom: 2px solid #A42222;">WELCOME  TO</span>
+         <h1>POWER <span>FITNESS</span></h1>
+         <span style="border-top: 2px solid #A42222;">CROSSFIT  STUDIO</span>
+         <!-- <p>Since Our Opening Day,Our Gym Classes Have Provided An Inspiring Welcoming For EveryBody. <br> <span> We Offer As Well </span> </p> -->
+         <p> We Offer As Well </p>
+         <div class="services">
+            <div class="first">
+              <h3>BASIC CROSSFIT</h3>
+            </div>
+            <div class="second">
+              <h3>FITNESS STUDIO</h3>
+            </div>
+            <div class="third">
+               <h3>PERSONAL TRAINING</h3>
+            </div>
+            <div class="fourth">
+               <h3>YOGA <br>CLASSES</h3>
+            </div>
+            <div class="fifth">
+                <h3>BOXING STUDIO</h3>
+            </div>
+         </div>
+         <button id=""> <a href="#">JOIN NOW!</a></button>
+        </main>
+
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const joinButton = document.querySelector('main button');
+      
+          joinButton.addEventListener('click', () => {
+              alert('Thank you for joining! We will get in touch with you soon.');
+          });
+      });
+   
+   
+      document.addEventListener('DOMContentLoaded', () => {
+       const joinButton = document.querySelector('main button');
+       const paragraph = document.querySelector('main p');
+   
+       joinButton.addEventListener('click', () => {
+           paragraph.textContent = 'We look forward to seeing you at our gym!';
+       });
+   });
+      </script>
 </body>
 </html>
